@@ -31,7 +31,19 @@ while opcion!="13":
 	elif opcion=="3":
 		areas=PIA_modulo.main_areas(lista_datos)
 		PIA_modulo.graf_areas(areas, lista_datos)
-	
+
+	elif opcion=="4":
+		PIA_modulo.pais_menor_poblacion(lista_datos)
+
+	elif opcion=="5":
+		PIA_modulo.grafica_menor_poblacion(lista_datos)
+
+	elif opcion=="6":
+		PIA_modulo.pais_mayor_poblacion(lista_datos)
+
+	elif opcion=="7":
+		PIA_modulo.grafica_mayor_poblacion(lista_datos)
+
 	elif opcion=="8":
 		frecuencia_idiomas=PIA_modulo.frecuencia_idiomas(lista_datos)
 		PIA_modulo.impresion_frecuencia_idiomas(frecuencia_idiomas)
